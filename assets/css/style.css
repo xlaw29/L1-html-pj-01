@@ -36,7 +36,16 @@ a {
     opacity: 0.9;
 }
 
-.header {
+/* ================Header============== */
+.fixed-header {
+    background: #e6f0ff;
+    padding-top: 35px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.hero-wrap {
     background: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -45,7 +54,8 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 47px;
+    background: #e6f0ff;
+    padding: 12px 0;
 }
 .navbar ul {
     display: flex;
@@ -75,7 +85,7 @@ a {
 }
 
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 .hero .info {
     width: 51%;
